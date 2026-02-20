@@ -15,6 +15,7 @@ print("Hello, my name is Dipto Chakraborty")
 
 # interger /float
 # age = 25
+# num = 012       # 0 can't be in the first
 # cgpa = 3.95
 # print(f"You are {age} years old.")
 # print(f"You have {cgpa} CGPA")
@@ -168,3 +169,61 @@ print("Hello, my name is Dipto Chakraborty")
 
 
 
+# logical operator -> or, and, not
+# age = 17
+# if age >= 18 and age <= 33:
+#     print("You are eligible for this post.")
+# else:
+#     print("You are not eligible for this post. ")
+
+
+# temp = 25
+# rainy = True
+# if temp > 35 or temp < 15 or rainy:
+#     print("The event is cancelled.")
+# else:
+#     print("The event will be held on scheduled.")
+
+
+# cloudy = False
+# if not cloudy:
+#     print("Let's go out to play.")
+# else:
+#     print("Let's not go out to play today.")
+
+
+
+
+
+# conditional expression -> ternary operator
+# num = -1
+# print("positive number." if num > 0 else "number is zero." if num == 0 else "negative number.")
+
+
+# number = 15
+# print("even number." if number % 2 == 0 else "odd number.")
+
+
+# a = 7
+# b = 4
+# max_num = a if a > b else b
+# print(f"The maximum number is: {max_num}")
+
+
+
+
+
+# format specifiers
+x = 123456.78901234
+# print(f"{x:.2f}")       #how many digit after decimal
+# print(f"{x:.4}")        #output will be 1.235e+05
+# string left aligned by default and numbers right aligned by default
+# print(f"{x:25}")        #width 25; default left aligned. if the width is less than the width of character, then the width will be the character width automatically
+# print(f"{x:<25}")       #left-aligned
+# print(f"{x:>25}")       #right-aligned
+# print(f"{x:^25}")       #centered-aligned
+# print(f"{x:+}")         #show plus sign as beginning
+# print(f"{x:020}")       #pad zeros to width 20
+# print(f"{x:.3%}")       #convert to percentage with 2 decimals
+# print(f"{x:,}")         #thousand separator
+# print(f"{x:+015,.3f}")      #all in one -> {x:[sign][padd 0][width][thousand separator][.precision][type]}
