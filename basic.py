@@ -214,7 +214,7 @@ print("Hello, my name is Dipto Chakraborty")
 
 
 # format specifiers
-x = 123456.78901234
+# x = 123456.78901234
 # print(f"{x:.2f}")       #how many digit after decimal
 # print(f"{x:.4}")        #output will be 1.235e+05
 # string left aligned by default and numbers right aligned by default
